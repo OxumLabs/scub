@@ -12,7 +12,7 @@ func main() {
 	println(scub)
 
 	// Create a new window
-	swin := scub.NewWindow("Hello Fyne")
+	swin := scub.NewWindow("SCUB - Engine")
 	swin.Resize(fyne.NewSize(720, 480))
 	swin.SetContent(container.NewVBox(
 		widget.NewLabel("Hello, World!"),
